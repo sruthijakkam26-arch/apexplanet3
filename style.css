@@ -1,0 +1,114 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: #f0f4f8;
+    color: #263238;
+    line-height: 1.6;
+}
+
+header {
+    background: linear-gradient(135deg, #00695c, #26a69a);
+    color: white;
+    text-align: center;
+    padding: 30px 15px;
+}
+
+header h1 {
+    margin-bottom: 10px;
+}
+
+main {
+    width: 90%;
+    max-width: 900px;
+    margin: 25px auto;
+}
+
+.card {
+    background: white;
+    padding: 22px;
+    margin-bottom: 20px;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px #00000015;
+}
+
+.card h2 {
+    color: #00796b;
+    margin-bottom: 12px;
+}
+
+button {
+    background: #00796b;
+    color: white;
+    border: none;
+    padding: 11px 18px;
+    margin-top: 12px;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 15px;
+}
+
+button:hover {
+    background: #004d40;
+}
+
+#options button {
+    display: block;
+    width: 100%;
+    text-align: left;
+    margin: 8px 0;
+}
+
+#feedback {
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+#joke {
+    margin-top: 12px;
+}
+
+footer {
+    text-align: center;
+    background: #263238;
+    color: white;
+    padding: 18px;
+}
+
+/* Tablet screens */
+@media (max-width: 768px) {
+    main {
+        width: 95%;
+    }
+
+    header h1 {
+        font-size: 25px;
+    }
+
+    .card {
+        padding: 18px;
+    }
+}
+
+/* Mobile screens */
+@media (max-width: 480px) {
+    header h1 {
+        font-size: 21px;
+    }
+
+    header p {
+        font-size: 14px;
+    }
+
+    .card h2 {
+        font-size: 19px;
+    }
+
+    button {
+        width: 100%;
+    }
+}

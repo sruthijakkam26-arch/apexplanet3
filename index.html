@@ -1,0 +1,51 @@
+!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Advanced JavaScript Project</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <h1>Advanced Styling & JavaScript</h1>
+        <p>Interactive Quiz and Live API Data</p>
+    </header>
+
+    <main>
+        <section class="card">
+            <h2>Responsive Design</h2>
+            <p>This website adjusts automatically to mobile,
+               tablet and desktop screens.</p>
+        </section>
+
+        <section class="card quiz">
+            <h2>Interactive JavaScript Quiz</h2>
+            <p id="question">Loading question...</p>
+
+            <div id="options"></div>
+
+            <p id="feedback"></p>
+
+            <button id="nextBtn" onclick="nextQuestion()">
+                Next Question
+            </button>
+
+            <p id="score"></p>
+        </section>
+
+        <section class="card">
+            <h2>Fetch Data from API</h2>
+            <button onclick="fetchJoke()">Get a Random Joke</button>
+            <p id="joke">Click the button to load data from an API.</p>
+        </section>
+    </main>
+
+    <footer>
+        <p>Created using HTML, CSS and JavaScript</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
